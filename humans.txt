@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Phil Keys -- Product Designer -- @philly_keys
 
 # TECHNOLOGY COLOPHON
 
