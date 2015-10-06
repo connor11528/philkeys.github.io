@@ -395,7 +395,7 @@ module.exports =
       key: 'render',
       value: function render() {
 
-        var imgs = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImageCndsd.jpg 245w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImage.jpg 650w';
+        var imgs = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImageCndsd.jpg 245w';
         console.log(imgs);
         return _react2['default'].createElement(Img, { alt: 'Your picture description', srcSet: imgs, extra: { className: 'myImg' } });
       }
