@@ -340,7 +340,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              'I craft experiences to help people achieve their goals'
+              'I craft everyday experiences to better people\'s lives'
             )
           )
         );
