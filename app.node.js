@@ -65,35 +65,35 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(26);
+  var _reactDom = __webpack_require__(25);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
-  var _fbjsLibExecutionEnvironment = __webpack_require__(5);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(6);
 
   var _libLocation = __webpack_require__(3);
 
   var _libLocation2 = _interopRequireDefault(_libLocation);
 
-  var _componentsLayout = __webpack_require__(8);
+  var _componentsLayout = __webpack_require__(9);
 
   var _componentsLayout2 = _interopRequireDefault(_componentsLayout);
 
   var routes = {
     '/404': function _() {
-      return __webpack_require__(11);
-    }, '/500': function _() {
       return __webpack_require__(12);
-    }, '/about': function about() {
+    }, '/500': function _() {
       return __webpack_require__(13);
-    }, '/blog': function blog() {
+    }, '/about': function about() {
       return __webpack_require__(14);
-    }, '/blog/test-article-one': function blogTestArticleOne() {
+    }, '/blog': function blog() {
       return __webpack_require__(15);
-    }, '/blog/test-article-two': function blogTestArticleTwo() {
+    }, '/blog/test-article-one': function blogTestArticleOne() {
       return __webpack_require__(16);
-    }, '/': function _() {
+    }, '/blog/test-article-two': function blogTestArticleTwo() {
       return __webpack_require__(17);
+    }, '/': function _() {
+      return __webpack_require__(18);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -238,13 +238,13 @@ module.exports =
 
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-  var _fbjsLibExecutionEnvironment = __webpack_require__(5);
+  var _fbjsLibExecutionEnvironment = __webpack_require__(6);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(24);
+  var _historyLibCreateBrowserHistory = __webpack_require__(23);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibUseQueries = __webpack_require__(25);
+  var _historyLibUseQueries = __webpack_require__(24);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -262,7 +262,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: 1.5 * 1rem;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 1.5 * 1rem;\n}\nul li, ol li {\n  line-height: 1.5 * 1rem;\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: 1.5 * 1rem;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 1.5 * 1rem;\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 0;\n  line-height: 1.5 * 1rem;\n}\nh1 {\n  font-size: calc(1.85 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(0.25 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px){\n  h1{\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * 1.5 * 1rem);\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: 1.5 * 1rem;\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n.Hero-title {\n  margin-top: 75px;\n}\n\n.Hero-title span {\n  font-weight: 300;\n  font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(.8 * 1.414 * 1rem);\n}\n\n.Hero-title h1 {\n  color: #FFBF00;\n}\n\n.Hero-image {\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n@media only screen and (max-width: 679px){\n  .Hero-phrase p{\n    font-weight: 300;\n  }\n}\n\n.Hero-phrase {\n  position: relative;\n  padding-top: 30px;\n}\n\n.Hero-phrase p {\n  font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(1.1 * 1.414 * 1rem);\n  line-height: calc(1.4 * 1.5 * 1rem);\n  margin-top: calc(0 * 1.5 * 1rem);\n  margin-left: 20px;\n}\n\n.Hero-phrase span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  display: block;\n  background-color: #ffe58d;\n  width: 103px;\n  height: 111px;\n  -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width=\"103\" height=\"111\" viewBox=\"0 0 103 111\" xmlns=\"http://www.w3.org/2000/svg\"><title>ampersand</title><path d=\"M59.944 37.443c-8.22 0-8.8 5.117-.728 5.117 4.02 0 7.67-2.363 8.367-2.363.44 0 .886-.01 1.332-.023 4.084 1.464 6.747 5.223 6.747 10.604 0 8.196-8.445 13.827-18.875 13.827-5.97 0-17.346-3.386-17.346-14.538 0-12.217 14.813-21.1 26.154-21.1 7.114 0 13.58 2.005 18.636 5.796-5.463 2.075-11.186 3.197-17.932 3.197-1.383 0-3.885-.517-6.354-.517zm29.764-2.72C97.415 30.538 103 24.08 103 15.78 103 5.565 95.135 0 85.908 0c-6.028 0-11.24 2.386-11.24 6.81 0 3.6 3.52 5.82 8.578 5.82 8.074 0 17.22-8.006 17.22 3.148 0 7.576-5 13.568-12.63 17.405-5.646-4.29-12.777-6.787-21.088-6.787-15.876 0-31.413 10.89-31.413 25.09 0 13.452 11.707 20.31 21.562 20.31 16.542 0 23.624-12.058 23.624-19.904 0-5.114-1.955-9.956-7.804-11.988 4.616-.512 9.268-1.695 13.495-3.493 5.506 5.052 8.898 12.555 8.898 22.176 0 17.59-19.948 36.927-44.642 36.927C25.7 95.513 7.79 80.763 7.79 63.05c0-6.29 1.318-14.096 9.748-20.65 3.506.726 7.9.76 10.695-.39 2.103-.864 2.147-2.422 0-3.03-3.527-.994-7.387-.264-10.07.866l.077-.048c-.032.016-.06.034-.09.052-6.194-2.702-9.012-8.537-9.012-13.707 0-7.835 6.557-13.267 14.01-13.267 6.81 0 11.846 4.092 11.846 8.975 0 7.835-8.918 1.374-13.177 1.374-2.66 0-5.34 1.238-5.34 3.928 0 3.782 3.926 6.058 8.385 6.058 8.277 0 13.06-5.123 13.06-10.398 0-7.813-7.986-12.59-16.637-12.59-10.37 0-19.317 5.912-19.317 16.107 0 6.615 5.46 12.898 13.09 15.403C3.81 49.26 0 60.657 0 69.56 0 94.058 21.856 111 49.718 111c27.863 0 52.515-21.22 52.515-45.718 0-12.522-4.537-23.49-12.525-30.558z\" fill=\"#FFD968\" fill-rule=\"evenodd\"/></svg>');\n  mask-image: url('data:image/svg+xml;charset=utf-8,<svg width=\"103\" height=\"111\" viewBox=\"0 0 103 111\" xmlns=\"http://www.w3.org/2000/svg\"><title>ampersand</title><path d=\"M59.944 37.443c-8.22 0-8.8 5.117-.728 5.117 4.02 0 7.67-2.363 8.367-2.363.44 0 .886-.01 1.332-.023 4.084 1.464 6.747 5.223 6.747 10.604 0 8.196-8.445 13.827-18.875 13.827-5.97 0-17.346-3.386-17.346-14.538 0-12.217 14.813-21.1 26.154-21.1 7.114 0 13.58 2.005 18.636 5.796-5.463 2.075-11.186 3.197-17.932 3.197-1.383 0-3.885-.517-6.354-.517zm29.764-2.72C97.415 30.538 103 24.08 103 15.78 103 5.565 95.135 0 85.908 0c-6.028 0-11.24 2.386-11.24 6.81 0 3.6 3.52 5.82 8.578 5.82 8.074 0 17.22-8.006 17.22 3.148 0 7.576-5 13.568-12.63 17.405-5.646-4.29-12.777-6.787-21.088-6.787-15.876 0-31.413 10.89-31.413 25.09 0 13.452 11.707 20.31 21.562 20.31 16.542 0 23.624-12.058 23.624-19.904 0-5.114-1.955-9.956-7.804-11.988 4.616-.512 9.268-1.695 13.495-3.493 5.506 5.052 8.898 12.555 8.898 22.176 0 17.59-19.948 36.927-44.642 36.927C25.7 95.513 7.79 80.763 7.79 63.05c0-6.29 1.318-14.096 9.748-20.65 3.506.726 7.9.76 10.695-.39 2.103-.864 2.147-2.422 0-3.03-3.527-.994-7.387-.264-10.07.866l.077-.048c-.032.016-.06.034-.09.052-6.194-2.702-9.012-8.537-9.012-13.707 0-7.835 6.557-13.267 14.01-13.267 6.81 0 11.846 4.092 11.846 8.975 0 7.835-8.918 1.374-13.177 1.374-2.66 0-5.34 1.238-5.34 3.928 0 3.782 3.926 6.058 8.385 6.058 8.277 0 13.06-5.123 13.06-10.398 0-7.813-7.986-12.59-16.637-12.59-10.37 0-19.317 5.912-19.317 16.107 0 6.615 5.46 12.898 13.09 15.403C3.81 49.26 0 60.657 0 69.56 0 94.058 21.856 111 49.718 111c27.863 0 52.515-21.22 52.515-45.718 0-12.522-4.537-23.49-12.525-30.558z\" fill=\"#FFD968\" fill-rule=\"evenodd\"/></svg>');\n}", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: 1.5 * 1rem;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 1.5 * 1rem;\n}\nul li, ol li {\n  line-height: 1.5 * 1rem;\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: 1.5 * 1rem;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 1.5 * 1rem;\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: 1.5 * 1rem;\n  margin-bottom: 0;\n  line-height: 1.5 * 1rem;\n}\nh1 {\n  font-size: calc(1.85 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(0.25 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px){\n  h1{\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * 1.5 * 1rem);\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: 1.5 * 1rem;\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n.Hero-title {\n  margin-top: 75px;\n}\n\n.Hero-title span {\n  font-weight: 300;\n  font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(.8 * 1.414 * 1rem);\n}\n\n.Hero-title h1 {\n  color: #FFBF00;\n}\n\n.Hero-image {\n  -webkit-transition: 'opacity 300ms ease-in';\n       -o-transition: 'opacity 300ms ease-in';\n          transition: 'opacity 300ms ease-in'\n}\n\n@media only screen and (max-width: 679px){\n  .Hero-phrase p{\n    font-weight: 300;\n  }\n}\n\n.Hero-phrase {\n  position: relative;\n  padding-top: 30px;\n}\n\n.Hero-phrase p {\n  font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(1.1 * 1.414 * 1rem);\n  line-height: calc(1.4 * 1.5 * 1rem);\n  margin-top: calc(0 * 1.5 * 1rem);\n  margin-left: 20px;\n}\n\n.Hero-phrase span {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  display: block;\n  background-color: #ffe58d;\n  width: 103px;\n  height: 111px;\n  -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width=\"103\" height=\"111\" viewBox=\"0 0 103 111\" xmlns=\"http://www.w3.org/2000/svg\"><title>ampersand</title><path d=\"M59.944 37.443c-8.22 0-8.8 5.117-.728 5.117 4.02 0 7.67-2.363 8.367-2.363.44 0 .886-.01 1.332-.023 4.084 1.464 6.747 5.223 6.747 10.604 0 8.196-8.445 13.827-18.875 13.827-5.97 0-17.346-3.386-17.346-14.538 0-12.217 14.813-21.1 26.154-21.1 7.114 0 13.58 2.005 18.636 5.796-5.463 2.075-11.186 3.197-17.932 3.197-1.383 0-3.885-.517-6.354-.517zm29.764-2.72C97.415 30.538 103 24.08 103 15.78 103 5.565 95.135 0 85.908 0c-6.028 0-11.24 2.386-11.24 6.81 0 3.6 3.52 5.82 8.578 5.82 8.074 0 17.22-8.006 17.22 3.148 0 7.576-5 13.568-12.63 17.405-5.646-4.29-12.777-6.787-21.088-6.787-15.876 0-31.413 10.89-31.413 25.09 0 13.452 11.707 20.31 21.562 20.31 16.542 0 23.624-12.058 23.624-19.904 0-5.114-1.955-9.956-7.804-11.988 4.616-.512 9.268-1.695 13.495-3.493 5.506 5.052 8.898 12.555 8.898 22.176 0 17.59-19.948 36.927-44.642 36.927C25.7 95.513 7.79 80.763 7.79 63.05c0-6.29 1.318-14.096 9.748-20.65 3.506.726 7.9.76 10.695-.39 2.103-.864 2.147-2.422 0-3.03-3.527-.994-7.387-.264-10.07.866l.077-.048c-.032.016-.06.034-.09.052-6.194-2.702-9.012-8.537-9.012-13.707 0-7.835 6.557-13.267 14.01-13.267 6.81 0 11.846 4.092 11.846 8.975 0 7.835-8.918 1.374-13.177 1.374-2.66 0-5.34 1.238-5.34 3.928 0 3.782 3.926 6.058 8.385 6.058 8.277 0 13.06-5.123 13.06-10.398 0-7.813-7.986-12.59-16.637-12.59-10.37 0-19.317 5.912-19.317 16.107 0 6.615 5.46 12.898 13.09 15.403C3.81 49.26 0 60.657 0 69.56 0 94.058 21.856 111 49.718 111c27.863 0 52.515-21.22 52.515-45.718 0-12.522-4.537-23.49-12.525-30.558z\" fill=\"#FFD968\" fill-rule=\"evenodd\"/></svg>');\n  mask-image: url('data:image/svg+xml;charset=utf-8,<svg width=\"103\" height=\"111\" viewBox=\"0 0 103 111\" xmlns=\"http://www.w3.org/2000/svg\"><title>ampersand</title><path d=\"M59.944 37.443c-8.22 0-8.8 5.117-.728 5.117 4.02 0 7.67-2.363 8.367-2.363.44 0 .886-.01 1.332-.023 4.084 1.464 6.747 5.223 6.747 10.604 0 8.196-8.445 13.827-18.875 13.827-5.97 0-17.346-3.386-17.346-14.538 0-12.217 14.813-21.1 26.154-21.1 7.114 0 13.58 2.005 18.636 5.796-5.463 2.075-11.186 3.197-17.932 3.197-1.383 0-3.885-.517-6.354-.517zm29.764-2.72C97.415 30.538 103 24.08 103 15.78 103 5.565 95.135 0 85.908 0c-6.028 0-11.24 2.386-11.24 6.81 0 3.6 3.52 5.82 8.578 5.82 8.074 0 17.22-8.006 17.22 3.148 0 7.576-5 13.568-12.63 17.405-5.646-4.29-12.777-6.787-21.088-6.787-15.876 0-31.413 10.89-31.413 25.09 0 13.452 11.707 20.31 21.562 20.31 16.542 0 23.624-12.058 23.624-19.904 0-5.114-1.955-9.956-7.804-11.988 4.616-.512 9.268-1.695 13.495-3.493 5.506 5.052 8.898 12.555 8.898 22.176 0 17.59-19.948 36.927-44.642 36.927C25.7 95.513 7.79 80.763 7.79 63.05c0-6.29 1.318-14.096 9.748-20.65 3.506.726 7.9.76 10.695-.39 2.103-.864 2.147-2.422 0-3.03-3.527-.994-7.387-.264-10.07.866l.077-.048c-.032.016-.06.034-.09.052-6.194-2.702-9.012-8.537-9.012-13.707 0-7.835 6.557-13.267 14.01-13.267 6.81 0 11.846 4.092 11.846 8.975 0 7.835-8.918 1.374-13.177 1.374-2.66 0-5.34 1.238-5.34 3.928 0 3.782 3.926 6.058 8.385 6.058 8.277 0 13.06-5.123 13.06-10.398 0-7.813-7.986-12.59-16.637-12.59-10.37 0-19.317 5.912-19.317 16.107 0 6.615 5.46 12.898 13.09 15.403C3.81 49.26 0 60.657 0 69.56 0 94.058 21.856 111 49.718 111c27.863 0 52.515-21.22 52.515-45.718 0-12.522-4.537-23.49-12.525-30.558z\" fill=\"#FFD968\" fill-rule=\"evenodd\"/></svg>');\n}", ""]);
 
   // exports
 
@@ -271,10 +271,16 @@ module.exports =
 /* 5 */
 /***/ function(module, exports) {
 
-  module.exports = require("fbjs/lib/ExecutionEnvironment");
+  module.exports = "data:image/jpeg;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI0ZDE1YTA0MzU1YTFmNjUwNWZhMGZkOWMzYTBhODYxNS5qcGci"
 
 /***/ },
 /* 6 */
+/***/ function(module, exports) {
+
+  module.exports = require("fbjs/lib/ExecutionEnvironment");
+
+/***/ },
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -299,7 +305,7 @@ module.exports =
 
   __webpack_require__(4);
 
-  var _Image = __webpack_require__(7);
+  var _Image = __webpack_require__(8);
 
   var _Image2 = _interopRequireDefault(_Image);
 
@@ -354,7 +360,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -379,9 +385,11 @@ module.exports =
 
   __webpack_require__(4);
 
-  var imgset = __webpack_require__(23);
-  var placeholder = __webpack_require__(22);
-  var img = __webpack_require__(21);
+  var Img = __webpack_require__(26).Image;
+
+  var image = __webpack_require__(22);
+  var imgSmall = __webpack_require__(5);
+  var imgLarge = __webpack_require__(5);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -390,36 +398,17 @@ module.exports =
       _classCallCheck(this, _default);
 
       _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).call(this, props);
-      this.state = { imgLoaded: false };
+      this.state = {};
     }
 
     _createClass(_default, [{
-      key: 'releaseImage',
-      value: function releaseImage() {
-        this.setState({ imgLoaded: true });
-      }
-    }, {
       key: 'render',
       value: function render() {
-        return _react2['default'].createElement(
-          'div',
-          { className: 'Hero-image' },
-          _react2['default'].createElement('img', {
-            src: placeholder,
-            style: {
-              opacity: this.state.imgLoaded ? 0 : 1,
-              transition: 'opacity 300ms ease-out',
-              position: 'absolute' } }),
-          _react2['default'].createElement('img', {
+        console.log(image);
 
-            srcSet: imgset,
-            sizes: '200w,650w',
-            style: {
-              opacity: this.state.imgLoaded ? 1 : 0,
-              transition: 'opacity 300ms ease-in',
-              position: 'absolute' },
-            onLoad: this.releaseImage.bind(this) })
-        );
+        var imgs = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImage.jpg 200w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImage.jpg 650w';
+        console.log(imgs);
+        return _react2['default'].createElement(Img, { alt: 'Your picture description', srcSet: imgs, extra: { className: 'myImg' } });
       }
     }]);
 
@@ -430,7 +419,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -459,9 +448,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(18);
+  __webpack_require__(19);
 
-  var _Navigation = __webpack_require__(10);
+  var _Navigation = __webpack_require__(11);
 
   var _Navigation2 = _interopRequireDefault(_Navigation);
 
@@ -499,7 +488,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -534,7 +523,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(19);
+  __webpack_require__(20);
 
   var _libLocation = __webpack_require__(3);
 
@@ -616,7 +605,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -645,9 +634,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(20);
+  __webpack_require__(21);
 
-  var _Link = __webpack_require__(9);
+  var _Link = __webpack_require__(10);
 
   var _Link2 = _interopRequireDefault(_Link);
 
@@ -753,7 +742,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -818,7 +807,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -889,7 +878,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -954,7 +943,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1019,7 +1008,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1084,7 +1073,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1149,7 +1138,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1178,7 +1167,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _componentsIndexHeroHero = __webpack_require__(6);
+  var _componentsIndexHeroHero = __webpack_require__(7);
 
   var _componentsIndexHeroHero2 = _interopRequireDefault(_componentsIndexHeroHero);
 
@@ -1205,7 +1194,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1219,7 +1208,7 @@ module.exports =
 
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1233,7 +1222,7 @@ module.exports =
 
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1247,40 +1236,34 @@ module.exports =
 
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports) {
 
   module.exports = "data:image/jpeg;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI0ZDE1YTA0MzU1YTFmNjUwNWZhMGZkOWMzYTBhODYxNS5qcGci"
 
 /***/ },
-/* 22 */
-/***/ function(module, exports) {
-
-  module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyB2aWV3Qm94PScwIDAgNDAgMzcnPjxkZWZzPjxmaWx0ZXIgaWQ9J3B1cHB5Yml0cyc+PGZlR2F1c3NpYW5CbHVyIGluPSdTb3VyY2VHcmFwaGljJyBzdGREZXZpYXRpb249JzQwJy8+PC9maWx0ZXI+PC9kZWZzPjxpbWFnZSB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgeGxpbms6aHJlZj0nZGF0YTppbWFnZS9qcGVnO2Jhc2U2NCwvOWovNEFBUVNrWkpSZ0FCQVFBQUFRQUJBQUQvN1FCSVVHaHZkRzl6YUc5d0lETXVNQUE0UWtsTkJBUUFBQUFBQUE4Y0FWb0FBeHNsUnh3Q0FBQUNBQUlBT0VKSlRRUWxBQUFBQUFBUS9PRWZpY2kzeVhndk5HSTBCMWgzNi8vaEFCaEZlR2xtQUFCSlNTb0FDQUFBQUFBQUFBQUFBQUFBLytFRENHaDBkSEE2THk5dWN5NWhaRzlpWlM1amIyMHZlR0Z3THpFdU1DOEFQRDk0Y0dGamEyVjBJR0psWjJsdVBTTHZ1NzhpSUdsa1BTSlhOVTB3VFhCRFpXaHBTSHB5WlZONlRsUmplbXRqT1dRaVB6NGdQSGc2ZUcxd2JXVjBZU0I0Yld4dWN6cDRQU0poWkc5aVpUcHVjenB0WlhSaEx5SWdlRHA0YlhCMGF6MGlRV1J2WW1VZ1dFMVFJRU52Y21VZ05TNDFMV013TWpFZ056a3VNVFUwT1RFeExDQXlNREV6THpFd0x6STVMVEV4T2pRM09qRTJJQ0FnSUNBZ0lDQWlQaUE4Y21SbU9sSkVSaUI0Yld4dWN6cHlaR1k5SW1oMGRIQTZMeTkzZDNjdWR6TXViM0puTHpFNU9Ua3ZNREl2TWpJdGNtUm1MWE41Ym5SaGVDMXVjeU1pUGlBOGNtUm1Pa1JsYzJOeWFYQjBhVzl1SUhKa1pqcGhZbTkxZEQwaUlpQjRiV3h1Y3pwNGJYQk5UVDBpYUhSMGNEb3ZMMjV6TG1Ga2IySmxMbU52YlM5NFlYQXZNUzR3TDIxdEx5SWdlRzFzYm5NNmMzUlNaV1k5SW1oMGRIQTZMeTl1Y3k1aFpHOWlaUzVqYjIwdmVHRndMekV1TUM5elZIbHdaUzlTWlhOdmRYSmpaVkpsWmlNaUlIaHRiRzV6T25odGNEMGlhSFIwY0RvdkwyNXpMbUZrYjJKbExtTnZiUzk0WVhBdk1TNHdMeUlnZUcxd1RVMDZSRzlqZFcxbGJuUkpSRDBpZUcxd0xtUnBaRHBCTXpneE1EbEdSVFkwTVRJeE1VVTFPRFEyTmtWRlJrSTNORVUyUmtRNFJpSWdlRzF3VFUwNlNXNXpkR0Z1WTJWSlJEMGllRzF3TG1scFpEcEJNemd4TURsR1JEWTBNVEl4TVVVMU9EUTJOa1ZGUmtJM05FVTJSa1E0UmlJZ2VHMXdPa055WldGMGIzSlViMjlzUFNKUWFHOTBiM01nTVM0eElqNGdQSGh0Y0UxTk9rUmxjbWwyWldSR2NtOXRJSE4wVW1WbU9tbHVjM1JoYm1ObFNVUTlJakV3TkRjek9VUXdNalV6TjBNeVFrVTFNVUkxUmtGR05qSTFNVUpFTTBRNElpQnpkRkpsWmpwa2IyTjFiV1Z1ZEVsRVBTSXhNRFEzTXpsRU1ESTFNemRETWtKRk5URkNOVVpCUmpZeU5URkNSRE5FT0NJdlBpQThMM0prWmpwRVpYTmpjbWx3ZEdsdmJqNGdQQzl5WkdZNlVrUkdQaUE4TDNnNmVHMXdiV1YwWVQ0Z1BEOTRjR0ZqYTJWMElHVnVaRDBpY2lJL1B2L2JBRU1BQVFFQkFRRUJBUUVCQVFFQkFRRUJBUUVCQVFFQkFRRUJBUUVCQVFFQkFRRUJBUUVCQWdJQkFRSUJBUUVDQWdJQ0FnSUNBZ0lCQWdJQ0FnSUNBZ0lDQXYvYkFFTUJBUUVCQVFFQkFRRUJBUUlCQVFFQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBdi9BQUJFSUFCTUFGQU1CRVFBQ0VRRURFUUgveEFBWUFBQURBUUVBQUFBQUFBQUFBQUFBQUFBSUNRb0NCdi9FQUNNUUFBRUZBUUFDQWdJREFBQUFBQUFBQUFRQkFnTUZCZ2NJRXhFVUNSSVdKRUgveEFBYkFRQURBQUlEQUFBQUFBQUFBQUFBQUFBRUJRWUFBZ01IQ1AvRUFDZ1JBQUlCQkFFRUFnSUNBd0FBQUFBQUFBRUNBd1FGRVJJaEFBWVRNUWRCRkNJa01rSlJZZi9hQUF3REFRQUNFUU1SQUQ4QW96ODFQeVZoMU9TemQ5NHU2OTJ2YXkzc3FuU0RVMWVZRFloR1JBMVpESklwYklUMVhFUDByNk55UndJOWcwNFN6RXZheEdvc3ZkWmF1b2tqL0ZxcEtTbGdWbW1ZUnQraHlWVVNONlZXNUgyZUFSN3owbHFxdWVaRm1vUTVnaUpFakNOc0FnRGdzUmdqa1pBeVJ3VHgwRXVOL0lEZWVSWE50RFo5NzZaTmdBY3QwMm16OFFzdFlqWnRabWM5UVRYZWdOcjhNU05CWGFHeEN1UTY0dGhObExGWHlTU09paWs5a0xaSWQ2TzFtNkVpNDN0WVlsQzRabkJRdTJkVWFPRldPRlVobUpUSTRKQUp6MDg3WHR0VDNLdHhWYUNhNFQwS0IxOGJJc1liV1FLa3F2SkNoVm0xY0hmY1BIcUVaQzJGcmR2OG1ldzhjNnp1dWVVVzRzOWRXVXR3d29UWFVlYTFJWStxR3Y2OExSQ2FBMEFScVIxMTRTRmFqUFBIYTZWSURQZEVrMHFOUjY2VFVWdXRralVzdGJUMVJYbFpDNmZ1aC9xMlMrVGtET2ZmMGNFRWRJNnVtcXFLb2twYTJPV2lxWWpobzN4R3dQOEF2WFlBNTk1WEtuL0VrWVBYZWVkdmlSWVo3dXpjaGc5QnZNRFZhbEs3UWNveGxMWWMycHEwWTBUTzBMTlBvTkovSklnRkdlUmRSR3lsU2Z1djlHRkppR0xJc0xuMWxIUzFNTmNiUlFscjFWeWpCeVdlU1JXMk9oMS9YQ0tUcVcvcXE4a2pucnVMdHEzMlplMDZtNFhTWnFHQ21NcnFTcUVNM0EyWFlvemxuSWpLcUd5TUQycHd2dmt2UnRqeXE0NjF5QnUxcDl2cGdzL290UmU0VGsxcmo5L0ZtS2ZOQ1I0K3h1N3ZvV2xvckdzeTFjdWYzaWhUQmlvNDlWa2RJVStBZUw0ZHlYN3RTNjJXbU5UVVFyUXptVkl6RXpLWldhUUZqdDRkd0NwQUs4a3NUcmdFWjZCK0k3cERRM0s0VW8vbFcrcmhhY0ZWQUtTUkVBTW9rQURLOGJsWEovVlFxK3hub1V1K2VaK0M2YjF2WGFLSHRGcFpCaXZwYzRFZlBqOUs0VXlMTlp5b3B5SjZhZW1TT0V5a2RZQ0cvWElXR0Z4RGZtZjFveVJqbkxJUGpPdXJJWXF1cGtqaXFLbFF6b3lEWkQ2MVlseGs0QUp4d0NjZXdRSnJ2UTIzdUR1ZTYxOHQzaGxnVjFpcC9KSE9Rc0VhS0VXUHhST3ZqVnR3Q1NDeDJmR0dCTDIvS2pWNkd5NUxTMzFqYWtuM3NYUllzd3k2TlNJcTJTa00yZEZYbEJ1c3A0M1RQZElBVlBDK1p6MW5kRTVJMWtWaldJMzBIM0hhN2VQbGJzcVZhVlkzblc0N2xNcHQrS3JpRFlLUUQ0d3hBeU9Wd3JaVlZBRzdkdUZZbnhWM3ZDSnlZNmFhM0xHQ0ZieHJWU3A1d2hZRW9KTUF0cVJ6bGhnc3hNWCttMkdxck5UMzYycnREYmcySnB1ekJPS0VQSUhmWVY1V3NJWVhXMkxZbm8yd3JKV2lqZTBhWkh3U3FQR3I0M0t4cW9IYzNZMVYyYzRaNDVaR1VrQnNGWldBSXlEZ2dlaVBYMTFPVXJNa0VBUnlnZU1CdFNSa0ZSa0hCR1Fmc0hnL2ZXS2trZ0dvcWZxenl4S2JXQldSYi9ZNlNRazQ2Qmt4Uk0wa3F1YytSejEvMWZocld0WTFFWTFyVUdSMmpSQWpZREFFL3dEU1Jrbm5yQ1NmZlgvLzJRPT0nIGZpbHRlcj0ndXJsKCNwdXBweWJpdHMpJz48L2ltYWdlPjwvc3ZnPg=="
-
-/***/ },
 /* 23 */
-/***/ function(module, exports) {
-
-  module.exports = "profileImage-200w.jpg 200w ,profileImage-650w.jpg 650w "
-
-/***/ },
-/* 24 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 25 */
+/* 24 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 26 */
+/* 25 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
+
+/***/ },
+/* 26 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-picture");
 
 /***/ }
 /******/ ]);
