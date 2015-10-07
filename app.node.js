@@ -722,7 +722,7 @@ module.exports =
               _react2['default'].createElement(
                 'span',
                 { className: 'title-platform' },
-                'iOS App'
+                'iOS app'
               ),
               _react2['default'].createElement(
                 'p',
@@ -1800,7 +1800,7 @@ module.exports =
       value: function render() {
         return _react2['default'].createElement(
           'div',
-          null,
+          { style: { paddingBottom: '50px' } },
           _react2['default'].createElement(_componentsIndexHeroHero2['default'], null),
           _react2['default'].createElement(_componentsIndexUpUpUpUp2['default'], null),
           _react2['default'].createElement(_componentsIndexFeaturesFeatures2['default'], null)
