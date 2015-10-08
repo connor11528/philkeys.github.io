@@ -964,7 +964,7 @@ module.exports =
                 _react2['default'].createElement(
                   'span',
                   { className: 'title-platform' },
-                  'iOS app'
+                  'App'
                 ),
                 _react2['default'].createElement(
                   'p',
