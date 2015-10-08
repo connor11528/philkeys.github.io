@@ -643,7 +643,7 @@ module.exports =
       key: 'render',
       value: function render() {
 
-        var imgs = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/mobile-features-mmmystery.jpg 275w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/mobile-features-mmmystery.jpg 630w';
+        var imgs = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/mobile-features-mmmystery.jpg 275w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/profileImage4.jpg 630w';
         return _react2['default'].createElement(Img, { alt: 'Your picture description', srcSet: imgs, extra: { className: 'featureImg' } });
       }
     }]);
