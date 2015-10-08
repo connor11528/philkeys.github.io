@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(40);
+  var _reactDom = __webpack_require__(39);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -357,11 +357,11 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(7);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(38);
+  var _historyLibCreateBrowserHistory = __webpack_require__(37);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibUseQueries = __webpack_require__(39);
+  var _historyLibUseQueries = __webpack_require__(38);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -989,7 +989,7 @@ module.exports =
               _react2['default'].createElement(
                 'p',
                 { className: 'Content-summary' },
-                'By trusting your gut instinct, experience new tastes around the neighborhood, in a simple and fun way'
+                'Trust your gut instinct & experience new tastes around the neighborhood, in a simple and fun way'
               ),
               _react2['default'].createElement(
                 'a',
@@ -1501,55 +1501,20 @@ module.exports =
 
   __webpack_require__(36);
 
-  var _reactModal = __webpack_require__(41);
-
-  var _reactModal2 = _interopRequireDefault(_reactModal);
-
   var _Link = __webpack_require__(3);
 
   var _Link2 = _interopRequireDefault(_Link);
 
-  var ExecutionEnvironment = __webpack_require__(37);
-
-  var customStyles = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)'
-    }
-  };
-
-  if (ExecutionEnvironment.canUseDOM) {
-    _reactModal2['default'].setAppElement(document.getElementById('Layout'));
-    console.log(document.getElementById('Layout'));
-  }
-
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
-    function _default(props) {
+    function _default() {
       _classCallCheck(this, _default);
 
-      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).call(this, props);
-      this.state = { modalIsOpen: false };
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
     }
 
     _createClass(_default, [{
-      key: 'openModal',
-      value: function openModal(event) {
-        event.preventDefault();
-        this.setState({ modalIsOpen: true });
-        console.log(this.state.modalIsOpen);
-      }
-    }, {
-      key: 'closeModal',
-      value: function closeModal() {
-        this.setState({ modalIsOpen: false });
-      }
-    }, {
       key: 'render',
       value: function render() {
         return _react2['default'].createElement(
@@ -1583,7 +1548,7 @@ module.exports =
             { className: 'Navigation-right--mobile' },
             _react2['default'].createElement(
               'a',
-              { className: 'mobile-menu', href: '/', onClick: this.openModal.bind(this) },
+              { className: 'mobile-menu', href: '/', onClick: _Link2['default'].handleClick },
               'Menu'
             )
           ),
@@ -1637,53 +1602,6 @@ module.exports =
                   { className: 'Navigation-link', href: '/hello', onClick: _Link2['default'].handleClick },
                   'Contact'
                 )
-              )
-            )
-          ),
-          _react2['default'].createElement(
-            _reactModal2['default'],
-            {
-              isOpen: this.state.modalIsOpen,
-              onRequestClose: this.closeModal.bind(this),
-              style: customStyles },
-            _react2['default'].createElement(
-              'h2',
-              null,
-              'Hello'
-            ),
-            _react2['default'].createElement(
-              'button',
-              { onClick: this.closeModal.bind(this) },
-              'close'
-            ),
-            _react2['default'].createElement(
-              'div',
-              null,
-              'I am a modal'
-            ),
-            _react2['default'].createElement(
-              'form',
-              null,
-              _react2['default'].createElement('input', null),
-              _react2['default'].createElement(
-                'button',
-                null,
-                'tab navigation'
-              ),
-              _react2['default'].createElement(
-                'button',
-                null,
-                'stays'
-              ),
-              _react2['default'].createElement(
-                'button',
-                null,
-                'inside'
-              ),
-              _react2['default'].createElement(
-                'button',
-                null,
-                'the modal'
               )
             )
           )
@@ -2287,31 +2205,19 @@ module.exports =
 /* 37 */
 /***/ function(module, exports) {
 
-  module.exports = require("exenv");
+  module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
 /* 38 */
 /***/ function(module, exports) {
 
-  module.exports = require("history/lib/createBrowserHistory");
+  module.exports = require("history/lib/useQueries");
 
 /***/ },
 /* 39 */
 /***/ function(module, exports) {
 
-  module.exports = require("history/lib/useQueries");
-
-/***/ },
-/* 40 */
-/***/ function(module, exports) {
-
   module.exports = require("react-dom");
-
-/***/ },
-/* 41 */
-/***/ function(module, exports) {
-
-  module.exports = require("react-modal");
 
 /***/ }
 /******/ ]);
