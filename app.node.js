@@ -575,7 +575,7 @@ module.exports =
               _react2['default'].createElement(
                 'p',
                 null,
-                'I used react-static to gain an understanding of React. Killing two birds with one stone eh? This site includes Webpack, PostCSS and Sass, Lost, SVG\'s and hosted it via Github Pages. Like all projects consider it a \'work in progress\'.'
+                'I used react-static to gain an understanding of React. Killing two birds with one stone eh? This site comes with all the bells and whistles folks: Webpack, PostCSS with Sass, Lost, SVG\'s and it\'s hosted via Github Pages! Like all projects consider it a \'work in progress\'.'
               )
             )
           ),
