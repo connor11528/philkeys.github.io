@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(39);
+  var _reactDom = __webpack_require__(44);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -81,19 +81,21 @@ module.exports =
 
   var routes = {
     '/404': function _() {
-      return __webpack_require__(21);
-    }, '/500': function _() {
-      return __webpack_require__(22);
-    }, '/about': function about() {
       return __webpack_require__(23);
-    }, '/blog': function blog() {
+    }, '/500': function _() {
       return __webpack_require__(24);
-    }, '/blog/test-article-one': function blogTestArticleOne() {
+    }, '/about': function about() {
       return __webpack_require__(25);
-    }, '/blog/test-article-two': function blogTestArticleTwo() {
+    }, '/blog': function blog() {
       return __webpack_require__(26);
-    }, '/': function _() {
+    }, '/blog/test-article-one': function blogTestArticleOne() {
       return __webpack_require__(27);
+    }, '/blog/test-article-two': function blogTestArticleTwo() {
+      return __webpack_require__(28);
+    }, '/': function _() {
+      return __webpack_require__(29);
+    }, '/mmmystery': function mmmystery() {
+      return __webpack_require__(30);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -256,7 +258,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(35);
+  __webpack_require__(38);
 
   var _libLocation = __webpack_require__(4);
 
@@ -357,11 +359,11 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(7);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(37);
+  var _historyLibCreateBrowserHistory = __webpack_require__(42);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibUseQueries = __webpack_require__(38);
+  var _historyLibUseQueries = __webpack_require__(43);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -434,7 +436,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(28);
+  __webpack_require__(31);
 
   var _Link = __webpack_require__(3);
 
@@ -656,7 +658,7 @@ module.exports =
 
   __webpack_require__(5);
 
-  __webpack_require__(29);
+  __webpack_require__(32);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -753,7 +755,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(30);
+  __webpack_require__(33);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -810,7 +812,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(31);
+  __webpack_require__(34);
 
   var _MmmysteryFeatureMmmystery = __webpack_require__(14);
 
@@ -1032,7 +1034,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(32);
+  __webpack_require__(35);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -1334,7 +1336,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(33);
+  __webpack_require__(36);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -1431,9 +1433,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(34);
+  __webpack_require__(37);
 
-  var _Navigation = __webpack_require__(20);
+  var _Navigation = __webpack_require__(22);
 
   var _Navigation2 = _interopRequireDefault(_Navigation);
 
@@ -1499,7 +1501,199 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(36);
+  __webpack_require__(39);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'section',
+          { className: 'Blog-hero' },
+          _react2['default'].createElement(
+            'span',
+            { className: 'Blog-hero-platform' },
+            'Native Application'
+          ),
+          _react2['default'].createElement(
+            'h1',
+            { className: 'Blog-hero-title' },
+            'Building Mmmystery'
+          ),
+          _react2['default'].createElement(
+            'p',
+            { className: 'Blog-hero-phrase' },
+            'A three-week project to help you experience new tastes around your area, in a simple & fun way.'
+          )
+        );
+      }
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 21 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _HeroHero = __webpack_require__(20);
+
+  var _HeroHero2 = _interopRequireDefault(_HeroHero);
+
+  __webpack_require__(40);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'div',
+          null,
+          _react2['default'].createElement(_HeroHero2['default'], null),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'What\'s Mmmystery?'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Deciding what to eat can be the hardest question of the day, let alone the follow up of where to eat. I bet you’ve experienced this question recently and can recall many a time where you throw your hands up and proclaim, “I don’t care, let’s just go!”.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We wanted to take a step back. Away from lists of restaurants, pages of reviews and star ratings. To throw out people’s opinions and the notion that a shabby looking restaurant serves bad food. Our goal was to showcase the food itself, and let you trust your gut on whether you wanted to give it a try. To try something new, yet nearby.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'Blog-image-small-container' },
+              _react2['default'].createElement('img', { className: 'Blog-image-small', src: 'https://s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/makersquare-logo.png', width: '288', height: '41' })
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'The beginnings'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This was our team’s thesis project at Makersquare. If you haven’t heard of Makersquare, it’s a 12-week accelerator for software engineering. There, you learn the fundamentals of Computer Science and JavaScript to build production-ready applications.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The thesis is the culmination of the program. The instructors put together team’s of 4 and those team’s must decide what to build and the software to use.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'Blog-image-small-container' },
+              _react2['default'].createElement('img', { className: 'Blog-image-small', src: 'https://s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/team.png', width: '675', height: '175' })
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The first two days were set aside for coming up with an idea. We met a few times throughout those days, tossing around possibilities and giving input. In the end, the topic that stirred the most excitement was in the food industry.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Los Angeles has so many great places to eat, both physical and on wheels, and it felt like a great opportunity to cater to that. While this direction was on the ambiguous side, it provided a starting point for us to throw around ideas. We eventually keyed in on:'
+            )
+          )
+        );
+      }
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  __webpack_require__(41);
 
   var _Link = __webpack_require__(3);
 
@@ -1616,7 +1810,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1681,7 +1875,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1752,7 +1946,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1817,7 +2011,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1882,7 +2076,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -1947,7 +2141,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -2012,7 +2206,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -2076,7 +2270,61 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 28 */
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
+  'use strict';
+
+  Object.defineProperty(exports, '__esModule', {
+    value: true
+  });
+
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+  var _react = __webpack_require__(1);
+
+  var _react2 = _interopRequireDefault(_react);
+
+  var _componentsMmmysteryMmmystery = __webpack_require__(21);
+
+  var _componentsMmmysteryMmmystery2 = _interopRequireDefault(_componentsMmmysteryMmmystery);
+
+  var _default = (function (_Component) {
+    _inherits(_default, _Component);
+
+    function _default() {
+      _classCallCheck(this, _default);
+
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
+    }
+
+    _createClass(_default, [{
+      key: 'render',
+      value: function render() {
+        return _react2['default'].createElement(
+          'div',
+          null,
+          _react2['default'].createElement(_componentsMmmysteryMmmystery2['default'], null)
+        );
+      }
+    }]);
+
+    return _default;
+  })(_react.Component);
+
+  exports['default'] = _default;
+  module.exports = exports['default'];
+
+/***/ },
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2090,7 +2338,7 @@ module.exports =
 
 
 /***/ },
-/* 29 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2104,7 +2352,7 @@ module.exports =
 
 
 /***/ },
-/* 30 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2118,7 +2366,7 @@ module.exports =
 
 
 /***/ },
-/* 31 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2132,7 +2380,7 @@ module.exports =
 
 
 /***/ },
-/* 32 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2146,7 +2394,7 @@ module.exports =
 
 
 /***/ },
-/* 33 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2160,7 +2408,7 @@ module.exports =
 
 
 /***/ },
-/* 34 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2174,7 +2422,7 @@ module.exports =
 
 
 /***/ },
-/* 35 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2188,7 +2436,35 @@ module.exports =
 
 
 /***/ },
-/* 36 */
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+
+
+  // module
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px) {\n  h1 {\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px) {\n  .Blog-hero {\n    margin-top: 100px;\n    margin-bottom: 50px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-hero-title {\n    font-size: calc(2.25 * 1.414 * 1rem);\n    color: #FFBF00;\n  }\n  .Blog-hero-platform {\n    font-weight: 300;\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(.8 * 1.414 * 1rem);\n    color: #7F90A6;\n  }\n  .Blog-hero-phrase {\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(1.1 * 1.414 * 1rem);\n    line-height: calc(1.3 * 1.5 * 1rem);\n    margin-top: calc(0 * 1.5 * .5rem);\n  }\n}", ""]);
+
+  // exports
+
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+  exports = module.exports = __webpack_require__(2)();
+  // imports
+
+
+  // module
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px){\n  h1{\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px){\n  .Blog-section{\n    margin-top: 30px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-section h4{\n    margin-top: 0;\n    font-family: 'Bariol','Abril Fatface','Playfair Display','Fira Sans','Vollkorn','ProximaNova-Semibold','Helvetica','sans-serif';\n    font-size: calc(1.4 * 1.414 * 1rem);\n    line-height: calc(1.4 * 1.5 * 1rem);\n  }\n}\n\n.Blog-image-small {\n  display: block;\n  margin: 0 auto;\n}\n.Blog-image-small-container {\n  margin-top: 15px;\n  margin-bottom: 15px;\n}", ""]);
+
+  // exports
+
+
+/***/ },
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -2202,19 +2478,19 @@ module.exports =
 
 
 /***/ },
-/* 37 */
+/* 42 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 38 */
+/* 43 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 39 */
+/* 44 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
