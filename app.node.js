@@ -1587,7 +1587,7 @@ module.exports =
       value: function render() {
         return _react2['default'].createElement(
           'div',
-          null,
+          { style: { marginBottom: '100px' } },
           _react2['default'].createElement(_HeroHero2['default'], null),
           _react2['default'].createElement(
             'section',
@@ -1901,6 +1901,425 @@ module.exports =
               'p',
               null,
               'For macro information, a user’s current location is provided at the bottom of the screen. While this is a mystery and all, we don’t want people wondering if the app knows the correct location.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Images'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'While having only member taken photos is the long term goal, it cannot be done with a small user base. For phase 1, we gathered a large number of photos from the Santa Monica restaurants using third party services. As time goes on, they’ll be filtered out but for now they were a great solution.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'One of the issues we ran into was the images sourced were of all different sizes. Originally, the cards had been built to work with a certain dimension ratio. A quick fix for us was to create a more ‘Polaroid’ feeling to the cards. This way, if the image is either skinnier or wider, the extra white space around them doesn’t not seem like an error.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Filtering'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The cards presented on Mmmystery are random, which provides an adventure in itself. There are times yet when you crave something in particular, which is why we needed to include a filters screen.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'After pulling all of the categories of the Santa Monica restaurants (there were hundreds) we narrowed it down to 9 and combined certain ones. With more time we’d test this to see if more or less are needed, but it works for now.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'The Map'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This is where the adventure begins. We provide only one step at a time for the directions process. When you get close to each waypoint, the map will update and show you the next one. This way we keep the restaurant and location hidden until the very last waypoint.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We configured the waypoint icons to be the category of your meal. If you select something healthy, you’ll see carrot icons. If you choose a hamburger, you’ll see a hamburger!'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Phase 2'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Finding your next meal was our initial goal. Yet, the longer we worked on Mmmystery, the more we saw it being a great place for food lovers to connect and share.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Capturing Images'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This was implemented in phase 1, but would be used more when phase 2 was complete. There two options, to grab from the camera roll or to take a picture in the flow. This is followed by the ability to crop and then you move on to choosing the restaurant and meal associated with the image.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The flow of arriving, taking an image when your food arrives, and then remember to upload it later will be tricky to solve. One incentive that may help people return to the app once their meal is over, is by included a feature for emotion.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Meal and Restaurant Selection'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'A profile allows a member, and others in the app, to view their history on Mmmystery. This includes Mmmysteries taken as well as photos shared. In general, it has the aspects you tend to find on platforms like Instagram, Facebook, and Twitter.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Profile'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'A profile allows a member, and others in the app, to view their history on Mmmystery. This includes Mmmysteries taken as well as photos shared. In general, it has the aspects you tend to find on platforms like Instagram, Facebook, and Twitter.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'News Feed'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We love the idea of a news feed displaying recent adventures taken and the photos you and your friends take. The information shared will be just as limited as the cards you swipe through. This will allow for conversations outside of the application, you know, like the way it used to be?'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Feelings'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Food is full of emotion, and with Mmmystery we want to be able to show that off! So, let’s say you’ve finished your meal and are waiting for the check to arrive. Now’s the perfect time to finish the adventure, by uploading that image you took and choosing an emotion from the list provided.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Are you so full you’re going to burst? Or just really sleepy? By attaching a feeling to each adventure, you can key your friends in on how that meal was. It can also stir memories down the road as you reminisce through your Mmmystery photos and land upon that lovely Filet Mignon.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Phase 3'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'While this is long-term planning, it was in our process to figure out how to create some revenue for Mmmystery. While we couldn’t come up with any innovative solutions with the time given, there were a couple ways that seemed possible.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Ads'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This could take the form of sponsored cards. By detecting your location, the app could randomly serve up sponsored meals that are nearby you.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Discounts'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'On the main screen, where the current location is displayed near the bottom, it could be replaced with daily deals. These would be great deals from around the area you could score big on.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Extras'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Here are a few of the extra views that weren\'t discussed above.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Walkthrough'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This could take the form of sponsored cards. By detecting your location, the app could randomly serve up sponsored meals that are nearby you.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Loading'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This was great practice working with the animation features of React Native. While the end result wasn’t as smooth as we would’ve liked, it still had a nice effect.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Authentication'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We utilized the facebook authentication via GraphQL.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Menu'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Completed during phase 1, the menu provides easy access to your account as well as helpful information about the app and the ability to contact the team at Mmmystery.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Post Mordem'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'In the end our team accomplished exactly what we set out to do. We wanted to provide a fully working application that allowed you to select a meal and then be directed step by step the the restaurant. We were even able to add the ability to take photos, crop them, create profiles, and a working menu.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Things I learned'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Fill this out!'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Tech Stack'
+            ),
+            _react2['default'].createElement(
+              'ul',
+              null,
+              _react2['default'].createElement(
+                'li',
+                null,
+                'React Native'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'ES6 / Babel'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Yelp API'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Mapbox API'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Facebook Auth'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Amazon S3'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Node / Express / Heroku'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'You can view all of the code for Mmmystery ',
+              _react2['default'].createElement(
+                'a',
+                { href: 'https://github.com/philkeys/mmmystery' },
+                'on Github'
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Videos'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We did a few recordings showing the various components of the app. Sorry for the bad resolution!'
             )
           )
         );
