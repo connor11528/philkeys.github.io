@@ -1658,6 +1658,250 @@ module.exports =
               null,
               'Los Angeles has so many great places to eat, both physical and on wheels, and it felt like a great opportunity to cater to that. While this direction was on the ambiguous side, it provided a starting point for us to throw around ideas. We eventually keyed in on:'
             )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'blockquote',
+              { className: 'Blog-blockquote-major' },
+              'The everyday problem of deciding ',
+              _react2['default'].createElement('br', null),
+              'what and where to eat'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'The Why'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'So we had a problem to solve. Since we had only three weeks, we used our own experiences to come up with a list of the current paint points associated with this.'
+            ),
+            _react2['default'].createElement(
+              'ol',
+              null,
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Emphasis put on the wrong data. Precedence on star ratings and reviews from people you don’t know. This is expecially dangerous for food, as each person has different tastes'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'A reliance on the consumer knowing exactly what they want to eat, whether dish or category (Italian, Mexican, etc)'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Too many options displayed at once. Whether that’s all of the restaurants within a 20 mile radius or the names of various dishes to choose from'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Bias against restaurants due to either their location, name, or the look of the building'
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'blockquote',
+              { className: 'Blog-blockquote-minor' },
+              'Case in point – A friend explained that when she wants something to eat, she’ll log into Yelp. She’ll find her ‘favorite’ spot; usually the one that’s highest-rated and order one of her ‘usuals’. Rarely does she use Yelp to actually find new places or new food.'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'The What'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Using these pain points, we came up with a set of principles that would create a better experience for the food lover’s out there.'
+            ),
+            _react2['default'].createElement(
+              'ol',
+              null,
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Show the most relevant data first; being images of the actual food'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Reduce the number of options presented to one at a time'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Remove all social information presented (reviews, stars, etc)'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Cater to the walking crowd by sourcing just nearby restaurants'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Remove all information about the restaurant (name, location, details)'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'A solution worth building:'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'blockquote',
+              { className: 'Blog-blockquote-major' },
+              'Trust your gut instinct and experience new tastest around the neighborhood, in a simple and fun way'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'div',
+              { className: 'Blog-image-small-container' },
+              _react2['default'].createElement('img', { className: 'Blog-image-small', src: 'https://s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding.jpg', width: '641', height: '494' })
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'The How'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We then needed to turn those points into an interface that was both easy to use and enjoyable. To do that we had to create some rules so that we didn’t get too carried away given the time constraints.'
+            ),
+            _react2['default'].createElement(
+              'ul',
+              null,
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Target Audience — Individuals and groups of all ages in cities that have restaurants within walking distance'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Scope — Focus just on the Santa Monica area to start. Depending on how easy collecting the data was, a possibility of expansion'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Stages – Break Mmmystery into 3 components: personal, social, and commercial. We’d have just enough time for personal.'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Authentication — Use Facebook’s authentication system to quickly create user accounts'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'UI — Use Sketch to create mockups for all of the needed screens, including ones for Phase 2 and 3'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Feature Freeze — Five days before the presentation. This didn’t mean we would stop working, just that we wouldn’t do anything new.'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Platform — This application will be used while on the move. Because of that the newly released React Native for iOS was chosen. The Android version had not been released at the time of this project.'
+              ),
+              _react2['default'].createElement(
+                'li',
+                null,
+                'Roles — Quinton took the role of Product owner and Steve took the role of Scrum Master. We all took hold of engineering and I would lead the design.'
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'h4',
+              null,
+              'Phase 1'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Our minimum viable product would allow people to log in, select a meal they wanted, use the step by step map to arrive at the location, and the built in photo feature to take a picture.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Let’s walk through each part of this experience'
+            )
+          ),
+          _react2['default'].createElement(
+            'section',
+            { className: 'Blog-section' },
+            _react2['default'].createElement(
+              'p',
+              null,
+              _react2['default'].createElement(
+                'strong',
+                null,
+                'Cards'
+              )
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'This view is the heart of the application.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'We found cards, å la Tinder, to be the best layout for deciding on a meal. It emphasizes the photo while displaying just one choice at a time so one stays focused. Perfecto! '
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'Cards have many benefits. They allowed us to place some extra information about the meal at the bottom of each one. There was also enough room in the view to put some macro level information above and below the card.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'The information added, both on the card and above and below it, are there for context awareness and reassurance. Obviously we don’t want to give away too much, but if we held back everything people would be afraid to use the application.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'So, we included the average price of the restaurant as well as distance away. We chose to show minutes and not distance in miles because minutes is less intimidating.'
+            ),
+            _react2['default'].createElement(
+              'p',
+              null,
+              'For macro information, a user’s current location is provided at the bottom of the screen. While this is a mystery and all, we don’t want people wondering if the app knows the correct location.'
+            )
           )
         );
       }
@@ -2444,7 +2688,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px) {\n  h1 {\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px) {\n  .Blog-hero {\n    margin-top: 100px;\n    margin-bottom: 50px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-hero-title {\n    font-size: calc(2.25 * 1.414 * 1rem);\n    color: #FFBF00;\n  }\n  .Blog-hero-platform {\n    font-weight: 300;\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(.8 * 1.414 * 1rem);\n    color: #7F90A6;\n  }\n  .Blog-hero-phrase {\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(1.1 * 1.414 * 1rem);\n    line-height: calc(1.3 * 1.5 * 1rem);\n    margin-top: calc(0 * 1.5 * .5rem);\n  }\n}", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px) {\n  h1 {\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px) {\n  .Blog-hero {\n    margin-top: 100px;\n    margin-bottom: 50px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-hero-title {\n    font-size: calc(2.25 * 1.414 * 1rem);\n    color: #FFBF00;\n  }\n  .Blog-hero-platform {\n    font-weight: 300;\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(.8 * 1.414 * 1rem);\n    color: #7F90A6;\n  }\n  .Blog-hero-phrase {\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(1.1 * 1.414 * 1rem);\n    line-height: calc(1.35 * 1.5 * 1rem);\n    margin-top: calc(0 * 1.5 * .5rem);\n  }\n}", ""]);
 
   // exports
 
@@ -2458,7 +2702,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px){\n  h1{\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px){\n  .Blog-section{\n    margin-top: 30px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-section h4{\n    margin-top: 0;\n    font-family: 'Bariol','Abril Fatface','Playfair Display','Fira Sans','Vollkorn','ProximaNova-Semibold','Helvetica','sans-serif';\n    font-size: calc(1.4 * 1.414 * 1rem);\n    line-height: calc(1.4 * 1.5 * 1rem);\n  }\n}\n\n.Blog-image-small {\n  display: block;\n  margin: 0 auto;\n}\n.Blog-image-small-container {\n  margin-top: 15px;\n  margin-bottom: 15px;\n}", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px){\n  h1{\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n\n@media only screen and (min-width: 680px){\n  .Blog-section{\n    margin-top: 30px;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    max-width: 700px;\n    margin-left: auto;\n    margin-right: auto;\n    display: flex;\n    -webkit-flex-flow: column nowrap;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap;\n  }\n  .Blog-section h4{\n    margin-top: 0;\n    font-family: 'Bariol','Abril Fatface','Playfair Display','Fira Sans','Vollkorn','ProximaNova-Semibold','Helvetica','sans-serif';\n    font-size: calc(1.4 * 1.414 * 1rem);\n    line-height: calc(1.4 * 1.5 * 1rem);\n  }\n  .Blog-section ol{\n    padding-left: 25px;\n    margin-left: 0;\n    padding-right: 0;\n    list-style-type: none;\n    margin-bottom: 0;\n  }\n  .Blog-section ol li{\n    counter-increment: step-counter;\n  }\n  .Blog-section ol li:before{\n    content: counter(step-counter);\n    position: absolute;\n    color: #FFBF00;\n    margin-left: -25px;\n    font-size: 80%;\n    font-weight: bold;\n  }\n  .Blog-section li{\n    margin-bottom: 15px;\n  }\n  .Blog-section ul{\n    list-style: none;\n    margin-left: 0;\n    padding-left: 0;\n  }\n  .Blog-section ul li{\n    padding-left: 1em;\n    text-indent: -1em;\n  }\n  .Blog-section ul li:before{\n    content: \"\\2022\";\n    padding-right: 12px;\n    color: #FFBF00;\n  }\n  .Blog-blockquote-major{\n    font-family: 'ProximaNova-Light', 'Open Sans', 'Helvetica', 'sans-serif';\n    font-size: calc(1.1 * 1.414 * 1rem);\n    line-height: calc(1.5 * 1.5 * 1rem);\n    margin-top: calc(0 * 1.5 * .5rem);\n  }\n  .Blog-blockquote-minor{\n    margin-top: 0;\n    margin-left: -20px;\n    border-left: 3px solid #5B6675;\n    padding-left: 20px;\n  }\n}\n\n.Blog-image-small {\n  display: block;\n  margin: 0 auto;\n}\n.Blog-image-small-container {\n  margin-top: 15px;\n  margin-bottom: 15px;\n}", ""]);
 
   // exports
 
