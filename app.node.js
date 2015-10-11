@@ -1592,6 +1592,10 @@ module.exports =
         var images = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/images/image375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/images/image750.jpg 750w';
         var filter = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/filter/filter375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/filter/filter750.jpg 750w';
         var map = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/map/map375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/map/map750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/map/map1079.jpg 1050w';
+        var capture = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/capture/capture320.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/capture/catpure750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/capture/capture1250.jpg 1250w';
+        var addMeal = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/addMeal/addMeal320.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/addMeal/addMeal750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/addMeal/addMeal1250.jpg 1250w';
+        var profile = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/profile/profile320.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/profile/profile750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/profile/profile1250.jpg 1250w';
+        var feelings = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/feelings/feelings320.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/feelings/feelings750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/feelings/feelings1250.jpg 1250w';
         return _react2['default'].createElement(
           'div',
           { className: 'Work-container' },
@@ -2029,6 +2033,14 @@ module.exports =
             )
           ),
           _react2['default'].createElement(
+            'div',
+            { className: 'Blog-image-small-container' },
+            _react2['default'].createElement(_reactPicture.Image, { alt: 'mmmystery map', srcSet: capture, extra: {
+                className: 'Blog-image-medium',
+                sizes: '100vw'
+              } })
+          ),
+          _react2['default'].createElement(
             'section',
             { className: 'Blog-section' },
             _react2['default'].createElement(
@@ -2052,6 +2064,14 @@ module.exports =
             )
           ),
           _react2['default'].createElement(
+            'div',
+            { className: 'Blog-image-small-container' },
+            _react2['default'].createElement(_reactPicture.Image, { alt: 'mmmystery map', srcSet: addMeal, extra: {
+                className: 'Blog-image-medium',
+                sizes: '100vw'
+              } })
+          ),
+          _react2['default'].createElement(
             'section',
             { className: 'Blog-section' },
             _react2['default'].createElement(
@@ -2068,6 +2088,14 @@ module.exports =
               null,
               'A profile allows a member, and others in the app, to view their history on Mmmystery. This includes Mmmysteries taken as well as photos shared. In general, it has the aspects you tend to find on platforms like Instagram, Facebook, and Twitter.'
             )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'Blog-image-small-container' },
+            _react2['default'].createElement(_reactPicture.Image, { alt: 'mmmystery map', srcSet: profile, extra: {
+                className: 'Blog-image-medium',
+                sizes: '100vw'
+              } })
           ),
           _react2['default'].createElement(
             'section',
@@ -2104,6 +2132,14 @@ module.exports =
               null,
               'We love the idea of a news feed displaying recent adventures taken and the photos you and your friends take. The information shared will be just as limited as the cards you swipe through. This will allow for conversations outside of the application, you know, like the way it used to be?'
             )
+          ),
+          _react2['default'].createElement(
+            'div',
+            { className: 'Blog-image-small-container' },
+            _react2['default'].createElement(_reactPicture.Image, { alt: 'mmmystery map', srcSet: feelings, extra: {
+                className: 'Blog-image-medium',
+                sizes: '100vw'
+              } })
           ),
           _react2['default'].createElement(
             'section',
