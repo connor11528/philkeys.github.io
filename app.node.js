@@ -1587,8 +1587,8 @@ module.exports =
     _createClass(_default, [{
       key: 'render',
       value: function render() {
-        var whiteboardImg = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding375.jpg 375w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding1334.jpg 1334w';
-        var cards = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/cardSlim375.jpg 375w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/cardSlim750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/card1049.jpg 1049w';
+        var whiteboardImg = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/whiteboarding/whiteboarding1334.jpg 1334w';
+        var cards = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/cardSlim375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/cardSlim750.jpg 750w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/cards/card1049.jpg 1049w';
         var images = '//s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/images/image375.jpg 320w, //s3-us-west-1.amazonaws.com/phil-portfolio-images/Work-Mmmystery/images/image750.jpg 750w';
         return _react2['default'].createElement(
           'div',
