@@ -3738,6 +3738,24 @@ module.exports =
 
   __webpack_require__(53);
 
+  /*
+  <a href="/work" onClick={Link.handleClick}>
+    <div className="Work-specific-container-advantage">
+      <h4 className="Work-title">iCracked Advantage</h4>
+      <p className="Work-phrase">Landing page & sign-up flow</p>
+    </div>
+  </a>
+  */
+
+  /*
+  <a href="/work" onClick={Link.handleClick}>
+    <div className="Work-specific-container-illustrations">
+      <h4 className="Work-title">Illustrations</h4>
+      <p className="Work-phrase">Misc. work from the past few years</p>
+    </div>
+  </a>
+   */
+
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
@@ -3777,24 +3795,6 @@ module.exports =
             ),
             _react2['default'].createElement(
               'a',
-              { href: '/work', onClick: _Link2['default'].handleClick },
-              _react2['default'].createElement(
-                'div',
-                { className: 'Work-specific-container-advantage' },
-                _react2['default'].createElement(
-                  'h4',
-                  { className: 'Work-title' },
-                  'iCracked Advantage'
-                ),
-                _react2['default'].createElement(
-                  'p',
-                  { className: 'Work-phrase' },
-                  'Landing page & sign-up flow'
-                )
-              )
-            ),
-            _react2['default'].createElement(
-              'a',
               { href: '/account', onClick: _Link2['default'].handleClick },
               _react2['default'].createElement(
                 'div',
@@ -3808,24 +3808,6 @@ module.exports =
                   'p',
                   { className: 'Work-phrase' },
                   'Personal dashboards'
-                )
-              )
-            ),
-            _react2['default'].createElement(
-              'a',
-              { href: '/work', onClick: _Link2['default'].handleClick },
-              _react2['default'].createElement(
-                'div',
-                { className: 'Work-specific-container-illustrations' },
-                _react2['default'].createElement(
-                  'h4',
-                  { className: 'Work-title' },
-                  'Illustrations'
-                ),
-                _react2['default'].createElement(
-                  'p',
-                  { className: 'Work-phrase' },
-                  'Misc. work from the past few years'
                 )
               )
             )
@@ -4589,7 +4571,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px) {\n  h1 {\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n.Hero-list {\n  margin-top: 75px;\n  -webkit-box-flex: 0;\n  -webkit-flex: 0 0 auto;\n      -ms-flex: 0 0 auto;\n          flex: 0 0 auto;\n  width: calc(99.99% * 1/1 - (30px - 30px * 1/1));\n}\n\n.Hero-list:nth-child(n) {\n  margin-right: 30px;\n}\n\n.Hero-list:last-child {\n  margin-right: 0;\n}\n\n.Hero-list:nth-child(1n) {\n  margin-right: 0;\n}\n\n@media only screen and (min-width: 680px) {\n  .Hero-list {\n    margin-left: 60px;\n  }\n}\n\n@media only screen and (max-width: 679px) {\n  .Hero-list {\n    //background-color: #FDEEBD;\n  }\n}\n\n.List-item {\n  position: relative;\n}\n\n.List-item:before {\n  font-size: calc(22 / 34 * 100%);\n  font-style: italic;\n  color: #7F90A6;\n  position: absolute;\n  left: -55px;\n  top: 10px;\n}\n\n.List-item:nth-child(1):before {\n  content: 'Fig A';\n}\n\n.List-item:nth-child(2):before {\n  content: 'Fig B';\n}\n\n.List-item:nth-child(3):before {\n  content: 'Fig C';\n}\n\n.List-item:nth-child(4):before {\n  content: 'Fig D';\n}\n\n@media only screen and (max-width: 679px) {\n  .List-item {\n    margin-bottom: 20px;\n  }\n  .Item-header {\n    color: #394453;\n  }\n}\n\n@media only screen and (min-width: 680px) {\n  .List-item {\n    margin-bottom: 20px;\n  }\n  .Item-header {\n    color: #FFBF00;\n  }\n}\n\n.Item-header {\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-size: calc(.75 * 1.414 * 1rem);\n  font-weight: bold;\n  line-height: calc(1 * 1.5 * 1rem);\n  margin-top: 0;\n}\n\n.Item-sub, .Item-sub-list {\n  font-size: calc(22 / 28 * 100%);\n  line-height: calc(.9 * 1.5 * 1rem);\n  color: #5B6675;\n}\n\n@media only screen and (min-width: 680px) {\n  .Item-sub, .Item-sub-list {\n    margin-top: calc(1.5 * 1rem / 24);\n  }\n}\n\n@media only screen and (max-width: 679px) {\n  .Item-header {\n    font-size: calc(.85 * 1.414 * 1rem);\n  }\n  .Item-sub, .Item-sub-list {\n    margin-top: calc(1.5 * 1rem / 12);\n  }\n  .Non-mobile {\n    display: none;\n  }\n}\n\n\n.Item-sub-list {\n  padding-left: 0;\n}\n\n\n.Item-sub-list li {\n  display: inline-block;\n  margin-right: 10px;\n  color: #7F90A6;\n}\n\n\n.Item-sub-list a {\n  border-bottom: 3px solid white;\n  color: #FFBF00;\n  cursor: pointer;\n  font-size: calc(22 / 22 * 100%);\n  font-weight: normal;\n  text-decoration: none;\n  -webkit-transition: all 1s;\n       -o-transition: all 1s;\n          transition: all 1s;\n}\n\n\n.Item-sub-list a:hover {\n  border-bottom: 3px solid #FFBF00;\n  color: #394453;\n}\n", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/* Colors */\n\n/* Uses */\n\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n/* Old Media Queries\n$iphone5-screen: 320px;\n$iphone6-screen: 375px;\n$tiny-screen: 500px;\n$extra-small-screen: 600px;\n$small-screen: 768px;\n$small-medium: 940px;\n$medium-screen: 1280px;\n$large-screen: 1440px;\n$x-large-screen: 1600px;\n*/\n\n/* React-starter-kit\n$screen-sm-min: 768px;\n$screen-md-min: 992px;\n$screen-lg-min: 1200px;\n*/\n\n/* Supported Size Ranges: */\n/* handhelds, except-handhelds */\n/* small-screens, except-small-screens, to-small-screens, above-small-screens */\n/* medium-screens, except-medium-screens, above-medium-screens */\n/* large-screens, except-large-screens */\n/* Use: */\n/* @include media(handhelds, large-screens) */\n/* @include media(above-small-screens) {\n     max-width: 960px\n   }\n*/\n/* Typesetting variables. Edit these! */ /* in pixels. This would result in 22px on desktop */ /* how large the line height is as a multiple of font size */ /* ADJUST THE FIRST IF YOU CHANGE $baselineHeight\n\n/* Rate of growth for headings */\n/* I actually like this to be slightly smaller then the leading. Makes for tight headings. */\n\n/* Setup */\nhtml {\n  /* Change default typefaces here */\n  font-family: 'ProximaNova-Regular', 'Open Sans', 'Helvetica', 'sans-serif';\n  font-size: calc(22 / 16 * 100%);\n  font-weight: normal;\n  font-style: normal;\n  color: #394453;\n\n  /* Make everything look a little nicer in webkit */\n  -webkit-font-smoothing: antialiased;\n}\n  /* -webkit-text-size-adjust: auto\n  // -moz-text-size-adjust: auto\n  // -ms-text-size-adjust: auto\n  // -o-text-size-adjust: auto\n  // text-size-adjust: auto */\n\n/* Copy & Lists */\np {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n}\nul, ol {\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\nul li, ol li {\n  line-height: calc(1.5 * 1rem);\n}\nul ul, ul ol, ol ul, ol ol {\n  margin-top: 0;\n  margin-bottom: 0;\n}\n\nblockquote {\n  line-height: calc(1.5 * 1rem);\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: calc(1.5 * 1rem);\n}\n/* Headings */\nh1, h2, h3, h4, h5, h6 {\n  /* Change heading typefaces here */\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-weight: bold;\n  font-style: normal;\n  margin-top: calc(1.5 * 1rem);\n  margin-bottom: 0;\n  line-height: calc(1.5 * 1rem);\n}\nh1 {\n  font-size: calc(2.20 * 1.414 * 1rem);\n  font-weight: 700;\n  line-height: calc(2.35 * 1.5 * 1rem);\n  margin-top: calc(0.15 * 1.5 * 1rem);\n}\n\n@media only screen and (min-width: 680px) {\n  h1 {\n    font-size: calc(3 * 1.414 * 1rem);\n    line-height: calc(3 * 1.5 * 1rem);\n    //margin-top: calc(2 * calc(1.5 * 1rem));\n  }\n}\n\n\nh2 {\n  font-size: calc(2 * 1.414 * 1rem);\n  line-height: calc(2 * 1.5 * 1rem);\n  margin-top: calc(2 * 1.5 * 1rem);\n}\n\nh3 {\n  font-size: calc(1 * 1.414 * 1rem);\n}\nh4 {\n  font-size: calc(1.414 / 2 * 1rem);\n}\nh5 {\n  font-size: calc(1.414 / 3 * 1rem);\n}\nh6 {\n  font-size: calc(1.414 / 4 * 1rem);\n}\n\n/* Tables */\ntable {\n  margin-top: calc(1.5 * 1rem);\n  border-spacing: 0px;\n  border-collapse: collapse;\n}\ntable td, table th {\n  padding: 0;\n  line-height: calc(1.5 * 22 - 0px);\n}\n/* Code blocks */\ncode {\n  /* Forces text to constrain to the line-height. Not ideal, but works. */\n  vertical-align: bottom;\n}\n/* Leading paragraph text */\n.lead {\n  font-size: calc(1.414 * 1rem);\n}\n\n/* Hug a the block above you */\n.hug {\n  margin-top: 0;\n}\n\n.Hero-list {\n  margin-top: 75px;\n  -webkit-box-flex: 0;\n  -webkit-flex: 0 0 auto;\n      -ms-flex: 0 0 auto;\n          flex: 0 0 auto;\n  width: calc(99.99% * 1/1 - (30px - 30px * 1/1));\n}\n\n.Hero-list:nth-child(n) {\n  margin-right: 30px;\n}\n\n.Hero-list:last-child {\n  margin-right: 0;\n}\n\n.Hero-list:nth-child(1n) {\n  margin-right: 0;\n}\n\n@media only screen and (min-width: 680px) {\n  .Hero-list {\n    margin-left: 60px;\n  }\n}\n\n@media only screen and (max-width: 679px) {\n  .Hero-list {\n    //background-color: #FDEEBD;\n  }\n}\n\n.List-item {\n  position: relative;\n}\n\n.List-item:before {\n  font-size: calc(22 / 34 * 100%);\n  font-style: italic;\n  color: #7F90A6;\n  position: absolute;\n  left: -55px;\n  top: 10px;\n}\n\n.List-item:nth-child(1):before {\n  content: 'Fig A';\n}\n\n.List-item:nth-child(2):before {\n  content: 'Fig B';\n}\n\n.List-item:nth-child(3):before {\n  content: 'Fig C';\n}\n\n.List-item:nth-child(4):before {\n  content: 'Fig D';\n}\n\n@media only screen and (max-width: 679px) {\n  .List-item {\n    margin-bottom: 20px;\n  }\n  .Item-header {\n    color: #394453;\n  }\n}\n\n@media only screen and (min-width: 680px) {\n  .List-item {\n    margin-bottom: 25px;\n  }\n  .Item-header {\n    color: #FFBF00;\n  }\n}\n\n.Item-header {\n  font-family: 'Bariol', 'Archivo Narrow', 'Source Sans Pro', 'Alegreya', 'Playfair Display', 'Fira Sans', 'Vollkorn', 'ProximaNova-Semibold', 'Helvetica', 'sans-serif';\n  font-size: calc(.75 * 1.414 * 1rem);\n  font-weight: bold;\n  line-height: calc(1 * 1.5 * 1rem);\n  margin-top: 0;\n}\n\n.Item-sub, .Item-sub-list {\n  font-size: calc(22 / 28 * 100%);\n  line-height: calc(.9 * 1.5 * 1rem);\n  color: #5B6675;\n}\n\n@media only screen and (min-width: 680px) {\n  .Item-sub, .Item-sub-list {\n    margin-top: calc(1.5 * 1rem / 24);\n  }\n}\n\n@media only screen and (max-width: 679px) {\n  .Item-header {\n    font-size: calc(.85 * 1.414 * 1rem);\n  }\n  .Item-sub, .Item-sub-list {\n    margin-top: calc(1.5 * 1rem / 12);\n  }\n  .Non-mobile {\n    display: none;\n  }\n}\n\n\n.Item-sub-list {\n  padding-left: 0;\n}\n\n\n.Item-sub-list li {\n  display: inline-block;\n  margin-right: 10px;\n  color: #7F90A6;\n}\n\n\n.Item-sub-list a {\n  border-bottom: 3px solid white;\n  color: #FFBF00;\n  cursor: pointer;\n  font-size: calc(22 / 22 * 100%);\n  font-weight: normal;\n  text-decoration: none;\n  -webkit-transition: all 1s;\n       -o-transition: all 1s;\n          transition: all 1s;\n}\n\n\n.Item-sub-list a:hover {\n  border-bottom: 3px solid #FFBF00;\n  color: #394453;\n}\n", ""]);
 
   // exports
 
