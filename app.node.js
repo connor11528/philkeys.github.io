@@ -1033,11 +1033,6 @@ module.exports =
               'p',
               { className: 'Blog-section-first-p' },
               'Now that Advantage members are provided with all they need, attention turns to the non-membership accounts as well as Enterprise systems. Since enterprise systems fall under Advantage as well, with a few modifications that aspect will be ready to go.'
-            ),
-            _react2['default'].createElement(
-              'p',
-              null,
-              'Take a look at the Advantage sign up process I worked on.'
             )
           )
         );
