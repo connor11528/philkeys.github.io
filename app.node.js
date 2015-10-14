@@ -1181,16 +1181,7 @@ module.exports =
                       null,
                       _react2['default'].createElement(
                         'a',
-                        { href: '/about', onClick: _Link2['default'].handleClick },
-                        'About'
-                      )
-                    ),
-                    _react2['default'].createElement(
-                      'li',
-                      null,
-                      _react2['default'].createElement(
-                        'a',
-                        { href: '/about', onClick: _Link2['default'].handleClick },
+                        { href: '/work', onClick: _Link2['default'].handleClick },
                         'Work'
                       )
                     ),
@@ -1199,16 +1190,7 @@ module.exports =
                       null,
                       _react2['default'].createElement(
                         'a',
-                        { href: '/about', onClick: _Link2['default'].handleClick },
-                        'Collections'
-                      )
-                    ),
-                    _react2['default'].createElement(
-                      'li',
-                      null,
-                      _react2['default'].createElement(
-                        'a',
-                        { href: '/about', onClick: _Link2['default'].handleClick },
+                        { href: '/resume', onClick: _Link2['default'].handleClick },
                         'Resume'
                       )
                     )
