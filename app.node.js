@@ -1454,11 +1454,6 @@ module.exports =
             _react2['default'].createElement(
               'p',
               { className: 'Blog-section-first-p' },
-              'The insurance industry is hard to break into, and there are many, many rules you must obey. We had to check and check again that it met industry requirements through development.'
-            ),
-            _react2['default'].createElement(
-              'p',
-              null,
               'I\'m not going to hit on all of the financial and legal pieces of Advantage and it\'s making. Those were outside the scope of what our team worked on. Our team included two product designers, a product manager, a project manager, and three engineers. We would be working on both the iOS application and our web platform.'
             ),
             _react2['default'].createElement(
