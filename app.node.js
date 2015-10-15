@@ -2800,7 +2800,7 @@ module.exports =
                 null,
                 _react2['default'].createElement(
                   'a',
-                  { href: '/' },
+                  { href: 'https://twitter.com/Philly_Keys' },
                   'Twitter '
                 ),
                 ' •'
@@ -2810,7 +2810,7 @@ module.exports =
                 null,
                 _react2['default'].createElement(
                   'a',
-                  { href: '/' },
+                  { href: 'https://instagram.com/philly_keys/' },
                   ' Instagram '
                 ),
                 ' •'
@@ -2820,7 +2820,7 @@ module.exports =
                 null,
                 _react2['default'].createElement(
                   'a',
-                  { href: '/' },
+                  { href: 'https://github.com/philkeys' },
                   ' Github'
                 )
               )
