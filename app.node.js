@@ -528,7 +528,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              'It makes requesting service a one-click process, allows you to receive notifications from your concierge team on updates with your devices or accounts, and helps enterprise systems stay up to date with all of their devices.'
+              'It makes requesting service a one-click process, allows you to receive notifications from your concierge team on updates with your devices or accounts, and helps enterprise systems keep track of their devices.'
             )
           ),
           _react2['default'].createElement(
@@ -562,7 +562,7 @@ module.exports =
                 ),
                 ' When requesting service from iCracked, you would receive a message and an email letting you know what is going to happen. If you accept the quote offered by an iTech and a repair is scheduled, many more communications like this would proceed. ',
                 _react2['default'].createElement('br', null),
-                ' This works alright, but there are multiple pain points. If the customer’s phone is completey broken, if the email goes into the jumk folder, if someone denies our ability to send them a message; these can all make the smooth process we had tried to setup, fall apart.'
+                ' This works alright, but there are multiple pain points. If the customer’s phone is completely broken, if the email goes into the junk folder, if someone denies our ability to send them a message; these can all make the smooth process we had tried to set up, fall apart.'
               ),
               _react2['default'].createElement(
                 'li',
@@ -590,9 +590,9 @@ module.exports =
                 _react2['default'].createElement(
                   'strong',
                   null,
-                  'Referal System'
+                  'Referral System'
                 ),
-                ' We had over a 98% satisfaction rating after a repair was completed. We’d often here our customers tell their local iTechs that they would spread the word. Unfortuantely, we hadn’t built a system to spread the news any other way than just word of mouth.'
+                ' We had over a 98% satisfaction rating after a repair was completed. We’d often hear our customers tell their local iTechs that they would spread the word. Unfortunately, we hadn’t built a system to spread the news any other way than just word of mouth.'
               ),
               _react2['default'].createElement(
                 'li',
@@ -602,7 +602,7 @@ module.exports =
                   null,
                   'Mail-In Repairs and Trade-Ins'
                 ),
-                ' Unlike our on-demand service,  mail-in can take anywhere from a few days to a couple of weeks depending on what needs to be done. The only way for a customer to find out the current status of their device was to call in to our repair hotline, which would not only be a pain for them but it halted our repair team from staying focused.'
+                ' Unlike our on-demand service,  mail-in can take anywhere from a few days to a couple of weeks depending on what needs to be done. The only way for a customer to find out the current status of their device was to call into our repair hotline, which would not only be a pain for them but it halted our repair team from staying focused.'
               ),
               _react2['default'].createElement(
                 'li',
@@ -707,7 +707,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               null,
-              'The team consisted of two Product Designers and one Full-Stack Developer. Working with the team, we used post-it notes to map out how we thought the different views and flows should be linked together. Quick white board sessions and online discovery occurred to get ideas flowing. We also took an indepth look at existing setups from both the competitors and outside of the industry.'
+              'The team consisted of two Product Designers and one Full-Stack Developer. Working with the team, we used post-it notes to map out how we thought the different views and flows should be linked together. Quick whiteboard sessions and online discovery occurred to get ideas flowing. We also took an in-depth look at existing setups from both the competitors and outside of the industry.'
             ),
             _react2['default'].createElement(
               'p',
@@ -936,7 +936,7 @@ module.exports =
             _react2['default'].createElement(
               'p',
               { className: 'Blog-section-first-p' },
-              'Too allow for easy cancellation of an Advantage membership, this view was added. Additional context was included so that iCracked may glean the reasons why someone is cancelling to improve the service for the rest of the members.'
+              'To allow for easy cancellation of an Advantage membership, this view was added. Additional context was included so that iCracked may glean the reasons why someone is cancelling to improve the service for the rest of the members.'
             )
           ),
           _react2['default'].createElement(
@@ -1103,7 +1103,7 @@ module.exports =
           _react2['default'].createElement(
             'p',
             { className: 'Blog-hero-phrase' },
-            'A project to create more transparency between a customer and the sevices being performed by iCracked'
+            'A project to create more transparency between a customer and the services being performed by iCracked'
           )
         );
       }
