@@ -4196,7 +4196,7 @@ module.exports =
                 _react2['default'].createElement(
                   'span',
                   { className: 'city' },
-                  ' Santa Monica, CA'
+                  ' San Francisco, CA'
                 )
               )
             )
