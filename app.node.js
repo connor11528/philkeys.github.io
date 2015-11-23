@@ -2256,8 +2256,8 @@ module.exports =
                 'Say hello at ',
                 _react2['default'].createElement(
                   'a',
-                  { href: 'mailto:phil@phillipkeys.com' },
-                  'phil@phillipkeys.com'
+                  { href: 'mailto:hello@phillipkeys.com' },
+                  'hello@phillipkeys.com'
                 )
               )
             ),
